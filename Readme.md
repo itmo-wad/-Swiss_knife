@@ -12,4 +12,6 @@
   Pierre Pinet<br>
   Emad Rashayda
  </ul>
+  <b>Roadmap:</b><br>
+ <img src="https://github.com/itmo-wad/Swiss-knife/blob/master/RoadMap.png">
 </div>
