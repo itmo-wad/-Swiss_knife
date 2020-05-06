@@ -1,0 +1,18 @@
+
+body
+	{
+	background-color:#e5e5e5;	
+	}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-2{
+	color:#7d7d7d;
+}
+.col-sm.block
+	{
+	background-color:white;	
+	color:#cccccc;
+	}
