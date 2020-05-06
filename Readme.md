@@ -12,6 +12,11 @@
   Pierre Pinet<br>
   Emad Rashayda
  </ul>
-  <b>Roadmap:</b><br>
- <img src="https://github.com/itmo-wad/Swiss-knife/blob/master/RoadMap.png">
+ <ul><b>TODO List:</b><br>
+  Create HTML Template<br>
+  Make drop&drag block functionality<br>
+  Create widgets<br>
+  Make production side with Flask,MongoDB<br>
+  Add login/register functionality
+ </ul>
 </div>
