@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"  crossorigin="anonymous">
+	<!-- fancyBox CSS -->
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
+    <title>Swiss-knife</title>
+  </head>
+<body>
+<div class="container">
+	<div class="col-sm"><img src="{{ url_for('static', filename='img/logo.png')}}" class="center"></div>
+		<div class="d-flex justify-content-center">
+				<div class="wrap-login100">
+					<form action='/loginned' method='POST' class="login100-form validate-form">
+						<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+							<span class="label-input100">Username</span>
+							<input class="input100" type="text" name="user_name" placeholder="Enter username">
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+							<span class="label-input100">Password</span>
+							<input class="input100" type="password" name="user_password" placeholder="Enter password">
+							<span class="focus-input100"></span>
+						</div>
+
+						<div class="flex-sb-m w-full p-b-30">
+							<div class="contact100-form-checkbox">
+								<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+								<label class="label-checkbox100" for="ckb1" style="margin-top:5px">
+									Remember me
+								</label>
+							</div>
+
+							<div ">
+								<a href="/register" class="txt1">
+									Registration
+								</a>
+							</div>
+						</div>
+						<a style="color:red;">{{error}}</a>
+						<div class="container-login100-form-btn" style="text-align:center">
+							<button class="login100-form-btn">
+								Login
+							</button>
+						</div>
+				
+					</form>
+				</div>
+			
+		</div>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</div>
+	<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js')}}"></script>
+    <script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>
+	
+</body>
+</html>
