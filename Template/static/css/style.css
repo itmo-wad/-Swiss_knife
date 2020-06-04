@@ -13,16 +13,21 @@ body
 .p-2{
 	color:#7d7d7d;
 }
-.col-sm.block
+.wrap-login100
+{
+	margin-bottom:20px;
+}
+.col-sm.block#calculator
 	{
-	background-color:white;	
+	background-color:#e5e5e5;	
 	color:#cccccc;
 	}
 	
-#toolbar
-{
-	background-color:brown;
-}
+.col-sm.block#cstats
+	{
+	background-color:white;	
+	}
+		
 .top-nav
 {
     background-color: #f84d43;
@@ -34,7 +39,9 @@ body
 {
 	background-color:#e5e5e5;
 }
-
+i{
+padding:10px;	
+}
 div.draggable
 {
 	touch-action: none;

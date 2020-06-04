@@ -12,6 +12,7 @@
 	<script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/calendar.css')}}">
     <title>Swiss-knife</title>
   </head>
 <body>
@@ -24,11 +25,15 @@
 	<div class="d-flex justify-content-center" id="widgets">
 		<!-- widgets -->
 	</div>
+	<div class="d-flex justify-content-center" id="widgets2">
+		<!-- widgets -->
+	</div>
 </div>
 	<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 	<script src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js')}}"></script>
-	<script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>
+	<script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>	
 </body>
+	<script type="text/javascript" src="../static/js/index.js"></script>
 	<script type="text/javascript" src="../static/js/drag&drop.js"></script>
 	<script type="text/javascript" src="../static/js/widgetList.js"></script>
 	<script type="text/javascript" src="../static/js/widget.js"></script>
