@@ -34,3 +34,8 @@ body
 {
 	background-color:#e5e5e5;
 }
+
+div.draggable
+{
+	touch-action: none;
+}

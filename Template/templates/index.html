@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"  crossorigin="anonymous">
 	<!-- fancyBox CSS -->
 
+	<script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
     <title>Swiss-knife</title>
@@ -20,25 +21,15 @@
 		<a href="/register"style="color:white">Register</a>
 	</div>
 	<div class="col-sm"><img src="{{ url_for('static', filename='img/logo.png')}}" class="center"></div>
-	<div class="d-flex justify-content-center">
-		<div class="p-2"><i>Coronavirus Statistics</i>
-			<div class="col-sm block">
-				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-				<div class="elfsight-app-8ed3c46c-ef8d-494a-ab54-59a482f5d2e0"></div>
-			</div>
-		</div>
-		<div class="p-2"><i>Weather</i>
-			<div class="col-sm block">
-			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-			<div class="elfsight-app-6d632e6d-04d4-47ba-8e50-abe0c3aa97eb"></div>
-			</div>
-		</div>
-		<div class="p-2"><i>News Block</i><div class="col-sm block">Info</div></div>
+	<div class="d-flex justify-content-center" id="widgets">
+		<!-- widgets -->
 	</div>
 </div>
 	<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 	<script src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js')}}"></script>
-    <script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>
-	
+	<script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>
 </body>
+	<script type="text/javascript" src="../static/js/drag&drop.js"></script>
+	<script type="text/javascript" src="../static/js/widgetList.js"></script>
+	<script type="text/javascript" src="../static/js/widget.js"></script>
 </html>
