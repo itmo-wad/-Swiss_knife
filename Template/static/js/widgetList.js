@@ -1,20 +1,21 @@
 document.getElementById("widgets").innerHTML = 
-"<div class=\"p-2 draggable\" id=\"CoronaVirus\">" +
+"<div class=\"p-2 draggable col\" id=\"CoronaVirus\">" +
 // first widget
 "</div>" +
-"<div class=\"p-2 draggable\" id=\"Weather\">" +
+"<div class=\"p-2 draggable col\" id=\"Weather\">" +
 // second widget
 "</div>" +
-"<div class=\"p-2 draggable\" id =\"Calculator\">" +
+"<div class=\"p-2 draggable col\" id =\"Calculator\">" +
 // third widget
-"</div>";
-document.getElementById("widgets2").innerHTML = 
-"<div class=\"p-2 draggable\" id =\"Currency index\">" +
+"</div>" +
+"<div class=\"col\"></div>" +
+"<div class=\"w-100\"></div>" +
+"<div class=\"p-2 draggable col\" id =\"Currency index\">" +
 // fourth widget
 "</div>" +
-"<div class=\"p-2 draggable\" id =\"Calendar\">" +
+"<div class=\"p-2 draggable col\" id =\"Calendar\">" +
 // fifth widget
 "</div>" +
-"<div class=\"p-2 draggable\" id =\"Crypto\">" +
+"<div class=\"p-2 draggable col\" id =\"Crypto\">" +
 // sixth widget
 "</div>";

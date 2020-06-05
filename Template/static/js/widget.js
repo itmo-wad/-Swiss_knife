@@ -46,7 +46,7 @@ if (pos) {
 document.getElementById(Widget03).innerHTML =
 	"<i>Calculator</i>" +
 	"<div class=\"col-sm block\"  id=\"calculator\">" +
-		"<iframe width=\"219\" height=\"302\" src=\"http://calculator-1.com/outdoor/?f=ffffff&r=666666\" scrolling=\"no\" frameborder=\"0\"><\/iframe>" +
+		"<iframe width=\"213\" height=\"302\" src=\"http://calculator-1.com/outdoor/?f=ffffff&r=666666\" scrolling=\"no\" frameborder=\"0\"><\/iframe>" +
 	"</div>";
 	
 //////////////////////// WIDGET 4 //////////////////////////////////////////
@@ -58,7 +58,7 @@ if (pos) {
 document.getElementById(Widget04).innerHTML =
 	"<i>Currency Indices</i>" +
 	"<div class=\"col-sm block\">" +
-		"<iframe style=\"width:100%;border:0;overflow:hidden;background-color:transparent;height:192px\" scrolling=\"no\" src=\"https://fortrader.org/en/informers/getInformer?st=30&cat=7&title=The%20Bank%20of%20Russia%20Exchange%20Rates%20&texts=%7B%22toolTitle%22%3A%22Symbol%22%2C%22todayCourse%22%3A%22RUB%22%7D&mult=1&showGetBtn=0&hideHeader=0&hideDate=0&w=0&codes=1&colors=false&items=2%2C21&columns=&toCur=11111\"><\/iframe>" +
+		"<iframe style=\"width:100%;border:0;overflow:hidden;background-color:transparent;height:190px\" scrolling=\"no\" src=\"https://fortrader.org/en/informers/getInformer?st=30&cat=7&title=The%20Bank%20of%20Russia%20Exchange%20Rates%20&texts=%7B%22toolTitle%22%3A%22Symbol%22%2C%22todayCourse%22%3A%22RUB%22%7D&mult=1&showGetBtn=0&hideHeader=0&hideDate=0&w=0&codes=1&colors=false&items=2%2C21&columns=&toCur=11111\"><\/iframe>" +
 	"</div>";
 	
 //////////////////////// WIDGET 5 //////////////////////////////////////////
@@ -69,13 +69,13 @@ if (pos) {
 }
 document.getElementById(Widget05).innerHTML =
 	"<i>Calendar</i>" +
-	"<div class=\"col-sm block\">" +
+	//"<div class=\"col-sm block\">" +
 		"<div id=\"calendar\">" +
 			"<div id=\"calendar_header\">"+
 			"<i class=\"icon-chevron-left\"></i><h1></h1><i class=\"icon-chevron-right\"></i></div>" +
 			"<div id=\"calendar_weekdays\"></div>" +
 			"<div id=\"calendar_content\"></div>" +
-		"</div>" +
+		//"</div>" +
 	"</div>";
 
 //////////////////////// WIDGET 6 //////////////////////////////////////////
@@ -87,7 +87,7 @@ if (pos) {
 document.getElementById(Widget06).innerHTML =
 	"<i>Cryptocurrency Indices</i>" +
 	"<div class=\"col-sm block\" style=\"width: 340px; height: 420px\">" +
-		'<iframe src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&cols=symbol,priceUsd,vol24,totalVol,priceBtc,chg24" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=TOP_CRYPTOCURRENCIES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a></div>' +
+		'<iframe src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&cols=symbol,priceUsd,vol24,totalVol,priceBtc,chg24" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>' +
 	"</div>";
 
 ///////////////////////// FUNCTION FOR REMEMBER ////////////////////////////
