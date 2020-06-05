@@ -39,9 +39,12 @@ body
 {
 	background-color:#e5e5e5;
 }
-i{
-padding:10px;	
+
+i 
+{
+	padding:10px;	
 }
+
 div.draggable
 {
 	touch-action: none;

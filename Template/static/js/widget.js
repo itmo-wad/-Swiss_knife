@@ -63,7 +63,7 @@ document.getElementById(Widget04).innerHTML =
 	
 //////////////////////// WIDGET 5 //////////////////////////////////////////
 
-	pos = JSON.parse(window.localStorage.getItem(Widget05));
+pos = JSON.parse(window.localStorage.getItem(Widget05));
 if (pos) {
 	placeDiv(pos.x, pos.y, Widget05);
 }
@@ -80,6 +80,10 @@ document.getElementById(Widget05).innerHTML =
 
 //////////////////////// WIDGET 6 //////////////////////////////////////////
 
+pos = JSON.parse(window.localStorage.getItem(Widget06));
+if (pos) {
+	placeDiv(pos.x, pos.y, Widget06);
+}
 document.getElementById(Widget06).innerHTML =
 	"<i>Cryptocurrency Indices</i>" +
 	"<div class=\"col-sm block\" style=\"width: 340px; height: 420px\">" +
