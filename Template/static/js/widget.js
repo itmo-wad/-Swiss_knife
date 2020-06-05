@@ -83,7 +83,7 @@ document.getElementById(Widget05).innerHTML =
 document.getElementById(Widget06).innerHTML =
 	"<i>Cryptocurrency Indices</i>" +
 	"<div class=\"col-sm block\" style=\"width: 340px; height: 420px\">" +
-		'<iframe src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&cols=symbol,priceUsd,vol24,totalVol,priceBtc,chg24" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=TOP_CRYPTOCURRENCIES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a></div>' +
+		'<iframe src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&cols=symbol,priceUsd,vol24,totalVol,priceBtc,chg24" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>' +
 	"</div>";
 
 ///////////////////////// FUNCTION FOR REMEMBER ////////////////////////////

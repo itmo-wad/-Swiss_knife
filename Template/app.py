@@ -43,7 +43,7 @@ def login():
 		res.set_cookie('user', encoded_jwt)
 		return res
 	else:
-		return redirect('/login', 302, error="Invalid login or password")
+		return render_template("login.html", error="Invalid login or password")
 
 @app.route('/logout',methods=['GET'])
 def logout():
