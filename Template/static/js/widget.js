@@ -9,6 +9,7 @@ let Widget02 = "Weather";
 let Widget03 = "Calculator"
 let Widget04 = "Currency index"
 let Widget05 = "Calendar"
+let Widget06 = "Crypto"
 
 /////////////////////// WIDGET 1 ///////////////////////////////////////	
 	
@@ -55,7 +56,7 @@ if (pos) {
 	placeDiv(pos.x, pos.y, Widget04);
 }
 document.getElementById(Widget04).innerHTML =
-	"<i>Currency Indicies</i>" +
+	"<i>Currency Indices</i>" +
 	"<div class=\"col-sm block\">" +
 		"<iframe style=\"width:100%;border:0;overflow:hidden;background-color:transparent;height:192px\" scrolling=\"no\" src=\"https://fortrader.org/en/informers/getInformer?st=30&cat=7&title=The%20Bank%20of%20Russia%20Exchange%20Rates%20&texts=%7B%22toolTitle%22%3A%22Symbol%22%2C%22todayCourse%22%3A%22RUB%22%7D&mult=1&showGetBtn=0&hideHeader=0&hideDate=0&w=0&codes=1&colors=false&items=2%2C21&columns=&toCur=11111\"><\/iframe>" +
 	"</div>";
@@ -76,6 +77,15 @@ document.getElementById(Widget05).innerHTML =
 			"<div id=\"calendar_content\"></div>" +
 		"</div>" +
 	"</div>";
+
+//////////////////////// WIDGET 6 //////////////////////////////////////////
+
+document.getElementById(Widget06).innerHTML =
+	"<i>Cryptocurrency Indices</i>" +
+	"<div class=\"col-sm block\" style=\"width: 340px; height: 420px\">" +
+		'<iframe src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&cols=symbol,priceUsd,vol24,totalVol,priceBtc,chg24" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=TOP_CRYPTOCURRENCIES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a></div>' +
+	"</div>";
+
 ///////////////////////// FUNCTION FOR REMEMBER ////////////////////////////
 
 function placeDiv(x_pos, y_pos, name) {

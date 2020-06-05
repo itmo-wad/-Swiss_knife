@@ -13,5 +13,8 @@ document.getElementById("widgets2").innerHTML =
 // fourth widget
 "</div>" +
 "<div class=\"p-2 draggable\" id =\"Calendar\">" +
-// fourth widget
+// fifth widget
+"</div>" +
+"<div class=\"p-2 draggable\" id =\"Crypto\">" +
+// sixth widget
 "</div>";
