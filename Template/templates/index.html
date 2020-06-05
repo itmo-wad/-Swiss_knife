@@ -39,7 +39,9 @@
 	<script src="{{ url_for('static', filename='/js/bootstrap.min.js')}}"  crossorigin="anonymous"></script>	
 </body>
 	<script type="text/javascript" src="../static/js/index.js"></script>
-	<script type="text/javascript" src="../static/js/drag&drop.js"></script>
+	{% if username %}
+		<script type="text/javascript" src="../static/js/drag&drop.js"></script>
+	{% endif %}
 	<script type="text/javascript" src="../static/js/widgetList.js"></script>
 	<script type="text/javascript" src="../static/js/widget.js"></script>
 </html>
