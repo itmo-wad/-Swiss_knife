@@ -18,8 +18,13 @@
 <body>
 <div class="container">
 	<div class="top-nav">
-		<a href="/login" style="color:white">Login</a>
-		<a href="/register"style="color:white">Register</a>
+		{% if not username %}
+			<a href="/login" style="color:white">Login</a>
+			<a href="/register"style="color:white">Register</a>
+		{% else %}
+			<h4 style="float: left; color: white; padding-left: 10px;">Welcome, {{ username }}!</h4>
+			<a href="/logout"style="color:white">Logout</a>
+		{% endif %}
 	</div>
 	<div class="col-sm"><img src="{{ url_for('static', filename='img/logo.png')}}" class="center"></div>
 	<div class="d-flex justify-content-center" id="widgets">
